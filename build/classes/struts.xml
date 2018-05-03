@@ -17,5 +17,14 @@
     <result name="editProduct">WEB-INF/jsp/product/editProduct.jsp</result>
   </action>
   
+  <action name="login" class="loginAction">
+  	<result name="success">/loginSuccess.jsp</result>
+    <result name="input">/login.jsp</result>
+  </action>
+  <action name="registerAction" class="registerAction">
+      <result name="success">/register.jsp</result>
+      <result name="input">/register.jsp</result>
+  </action>
+  
 </package>
 </struts>
